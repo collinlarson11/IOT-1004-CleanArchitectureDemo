@@ -17,4 +17,15 @@ public class TodoRepository
     {
         return _repository;
     }
+    public void MarkTodoItemAsCompleted(int index)
+    {
+        if (index < 0 || index >= _repository.Count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index), "Invalid todo item index.");
+        }
+
+        var todoItem = _repository[index];
+        todoItem.MarkAsCompleted();
+    }
+
 }
