@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="CleanArchitectureDemo.Application/CleanArchitectureDemo.Application.csproj" />
   <Project Path="CleanArchitectureDemo.Domain/CleanArchitectureDemo.Domain.csproj" />
+  <Project Path="CleanArchitectureDemo.UserInterface/CleanArchitectureDemo.UserInterface.csproj" />
 </Solution>
