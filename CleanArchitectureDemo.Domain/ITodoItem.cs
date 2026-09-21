@@ -2,6 +2,6 @@
 
 public interface ITodoItem
 {
-    public string? Title { get; set; }
+    public string Title { get; init; }
     public bool IsCompleted { get; set; }
 }
